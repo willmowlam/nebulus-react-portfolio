@@ -1,9 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Pages/Home';
-import Projects from './components/Pages/Projects';
-import Contact from './components/Pages/Contact';
+import {Home, Projects, Contact} from './components/Pages';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import './App.css';
 
