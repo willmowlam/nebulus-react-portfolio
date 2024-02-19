@@ -1,3 +1,5 @@
+import Container from 'react-bootstrap/Container';
+
 // Must include contact information:
 
 // Email address
@@ -13,7 +15,9 @@
 function Contact() {
   return (
     <>
-      <h2>Contact</h2>
+      <Container>
+        <h2>Contact</h2>
+      </Container>
     </>
   );
 }
