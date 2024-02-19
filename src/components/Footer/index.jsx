@@ -1,11 +1,18 @@
-// Links to LinkedIn, GitHub and Contact
-
-// Copyright statement
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Footer() {
   return (
     <>
-      <h2>Footer</h2>
+      <Container>
+        <Row>  
+          <Col><a href="https://www.linkedin.com/in/will-mowlam">LinkedIn</a></Col>
+          <Col><a href="https://github.com/willmowlam/">GitHub</a></Col> 
+          <Col><a href="/contact">Contact</a></Col>
+        </Row>
+        <Row>
+          <p>Copyright &copy; Will Mowlam</p>
+        </Row>
+      </Container>
     </>
     );
   }

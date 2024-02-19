@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import { Button, Container, Row, Col } from 'react-bootstrap';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Pages/Home';
@@ -17,6 +16,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   );
 };
