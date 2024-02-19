@@ -1,3 +1,5 @@
+import Container from 'react-bootstrap/Container';
+
 // This should be a welcome landing page that contains:
 
 // Your Name
@@ -11,7 +13,9 @@
 function Home() {
   return (
     <>
-      <h2>Home</h2>
+      <Container>
+        <h2>Home</h2>
+      </Container>
     </>
     );
   }
