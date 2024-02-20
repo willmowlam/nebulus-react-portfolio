@@ -5,7 +5,7 @@ import projectsData from '../../projects.json';
 
 function Projects() {
   return (
-    <Container>
+    <Container as="main" id="page-projects">
       <h2>Projects</h2>
       <Row xs={1} md={2} className="g-4">
         {projectsData.map(project => (

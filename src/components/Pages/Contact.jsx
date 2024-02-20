@@ -15,7 +15,7 @@ import Container from 'react-bootstrap/Container';
 function Contact() {
   return (
     <>
-      <Container>
+      <Container as="main" id="page-contact">
         <h2>Contact</h2>
       </Container>
     </>
