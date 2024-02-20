@@ -8,7 +8,7 @@ function ContactForm() {
 
     const form = event.target;
     
-    fetch('/', {
+    fetch('/contact', {
       method: 'POST',
       body: new FormData(form),
     })
