@@ -17,7 +17,7 @@ function ContactForm() {
   };
 
   return (
-    <Form 
+    <form 
       name="contact"
       method="POST" 
       data-netlify="true"
@@ -41,7 +41,7 @@ function ContactForm() {
       </Form.Group>
 
       <Button variant="primary" type="submit">Submit</Button>
-    </Form>
+    </form>
   );
 }
 
