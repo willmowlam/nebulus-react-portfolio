@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 function ContactForm() {
   return (
-    <Form name="contact" netlify>
+    <Form name="contact" method="POST" netlify>
       <h3>Send me a message</h3>
 
       <Form.Control type="hidden" name="subject" value="Message sent from portfolio" data-remove-prefix />
