@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <>
-      <Container>
+      <Container as="section" id="footer">
         <Row>  
           <Col><a href="https://www.linkedin.com/in/will-mowlam">LinkedIn</a></Col>
           <Col><a href="https://github.com/willmowlam/">GitHub</a></Col> 

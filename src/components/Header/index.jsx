@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <>
+    <section id="header">
       <Navbar sticky="top" expand="lg" bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand as={Link} to="/">Will Mowlam</Navbar.Brand>
@@ -19,7 +19,7 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+    </section>
   );
 };
 

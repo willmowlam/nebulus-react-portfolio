@@ -13,7 +13,7 @@ import Container from 'react-bootstrap/Container';
 function Home() {
   return (
     <>
-      <Container>
+      <Container as="main" id="page-home">
         <h2>Home</h2>
       </Container>
     </>

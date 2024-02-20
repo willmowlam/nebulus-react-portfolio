@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 function Custom404() {
   return (
     <>
-      <Container>
+      <Container as="main" id="page-404">
         <h2>404 - Page Not Found</h2>
         <p>Oops! Looks like you've ventured into uncharted digital territory.</p>
         <p>No worries! Take a deep breath, and let's navigate back to familiar ground. 
