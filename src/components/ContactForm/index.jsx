@@ -19,7 +19,6 @@ function ContactForm() {
   return (
     <Form 
       name="contact"
-      action="/contact-success"
       method="POST" 
       data-netlify="true"
       onSubmit={handleSubmit}
