@@ -25,7 +25,7 @@ function ContactForm() {
       onSubmit={handleSubmit}
     >
       <h3>Send me a message</h3>
-
+      <Form.Control type="hidden" name="form-name" value="contact" />
       <Form.Group className="mb-3" controlId="formName">
         <Form.Label>Your name:</Form.Label>
         <Form.Control type="text" name="name" />
