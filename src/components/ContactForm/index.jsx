@@ -2,11 +2,29 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 function ContactForm() {
-  return (
-    <Form name="contact" method="POST" data-netlify="true">
-      <h3>Send me a message</h3>
+  
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
-      <Form.Control type="hidden" name="subject" value="Message sent from portfolio" />
+    const form = event.target;
+    
+    fetch('/', {
+      method: 'POST',
+      body: new FormData(form),
+    })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
+  };
+
+  return (
+    <Form 
+      name="contact"
+      action="/contact-success"
+      method="POST" 
+      data-netlify="true"
+      onSubmit={handleSubmit}
+    >
+      <h3>Send me a message</h3>
 
       <Form.Group className="mb-3" controlId="formName">
         <Form.Label>Your name:</Form.Label>
