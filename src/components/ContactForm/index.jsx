@@ -8,7 +8,7 @@ function ContactForm() {
 
     const form = event.target;
     
-    fetch('/contact', {
+    fetch('/', {
       method: 'POST',
       body: new FormData(form),
     })
@@ -19,7 +19,6 @@ function ContactForm() {
   return (
     <Form 
       name="contact"
-      action="/contact-success"
       method="POST" 
       data-netlify="true"
       onSubmit={handleSubmit}
