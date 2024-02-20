@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import {Home, Projects, Contact, Custom404} from './components/Pages';
+import {Home, Projects, Contact, ContactSuccess, Custom404} from './components/Pages';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import './App.css';
 
@@ -13,7 +13,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Custom404 />} />
+        <Route path="/contact-success" element={<ContactSuccess />} />
+        <Route path="/*" element={<Custom404 />} />
       </Routes>
       <Footer />
     </>
