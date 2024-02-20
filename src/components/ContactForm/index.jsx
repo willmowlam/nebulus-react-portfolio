@@ -8,6 +8,8 @@ function ContactForm() {
 
       <Form.Control type="hidden" name="subject" value="Message sent from portfolio" />
 
+      <Form.Control type="hidden" name="form-name" value="contact" />
+
       <Form.Group className="mb-3" controlId="formName">
         <Form.Label>Your name:</Form.Label>
         <Form.Control type="text" name="name" />
