@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
-    "description": "This is the first project listed.",
-    "image": "https://placehold.co/286x177@2x.png",
-    "github": "https://github.com/willmowlam/REPO",
-    "deployed": "https://www.somewhere.com/"
+    "title": "NutriSmart App",
+    "description": "An app designed for meal planning and nutritional tracking.",
+    "image": "https://github.com/willmowlam/nutriSmartApp/raw/main/assets/images/nutriAppDemoImage.png",
+    "github": "https://github.com/willmowlam/nutriSmartApp/tree/stage",
+    "deployed": "https://willmowlam.github.io/nutriSmartApp/"
   },
   {
     "id": 2,
-    "title": "Project 2",
-    "description": "This is the second project listed.",
-    "image": "https://placehold.co/286x177@2x.png",
-    "github": "https://github.com/willmowlam/REPO",
-    "deployed": "https://www.somewhere.com/"
+    "title": "Weather Dashboard",
+    "description": "A weather app that allows you to see the current and 5-day weather forecast for your favourite cities.",
+    "image": "https://github.com/willmowlam/nebulus-weather-dashboard/raw/main/assets/images/screenshot.png",
+    "github": "https://willmowlam.github.io/nebulus-weather-dashboard/",
+    "deployed": "https://willmowlam.github.io/nebulus-weather-dashboard/"
   },
   {
     "id": 3,
-    "title": "Project 3",
-    "description": "This is the third project listed.",
-    "image": "https://placehold.co/286x177@2x.png",
-    "github": "https://github.com/willmowlam/REPO",
-    "deployed": "https://www.somewhere.com/"
+    "title": "Team Profile Generator",
+    "description": "A Node.js command-line application to easily create an HTML file containing basic information about your software engineering team.",
+    "image": "https://raw.githubusercontent.com/willmowlam/nebulus-team-profile-generator/main/assets/images/screenshot.png",
+    "github": "https://github.com/willmowlam/nebulus-team-profile-generator",
+    "deployed": "https://willmowlam.github.io/nebulus-team-profile-generator/assets/example/team.html"
   },
   {
     "id": 4,
-    "title": "Project 4",
-    "description": "This is the fourth project listed.",
-    "image": "https://placehold.co/286x177@2x.png",
-    "github": "https://github.com/willmowlam/REPO",
-    "deployed": "https://www.somewhere.com/"
+    "title": "Readme Generator",
+    "description": "A command line Node.js powered README.md generator for GitHub projects.",
+    "image": "/assets/images/screenshots/readme-generator.png",
+    "github": "https://github.com/willmowlam/nebulus-readme-generator",
+    "deployed": "https://github.com/willmowlam/nebulus-readme-generator/blob/main/README.md"
   },
   {
     "id": 5,
-    "title": "Project 5",
-    "description": "This is the fifth project listed.",
-    "image": "https://placehold.co/286x177@2x.png",
-    "github": "https://github.com/willmowlam/REPO",
-    "deployed": "https://www.somewhere.com/"
+    "title": "Bootstrap Portfolio",
+    "description": "Responsive portfolio of my work, built in Bootstrap.",
+    "image": "https://github.com/willmowlam/nebulus-bootstrap-portfolio/raw/main/assets/images/screenshot-bootstrap-portfolio.png",
+    "github": "https://github.com/willmowlam/nebulus-bootstrap-portfolio",
+    "deployed": "https://willmowlam.github.io/nebulus-bootstrap-portfolio/"
   },
   {
     "id": 6,
-    "title": "Project 6",
-    "description": "This is the sixth project listed.",
-    "image": "https://placehold.co/286x177@2x.png",
-    "github": "https://github.com/willmowlam/REPO",
-    "deployed": "https://www.somewhere.com/"
+    "title": "60 Second Coding Quiz",
+    "description": "Test your knowledge in JavaScript with the Nebulus 60 Second Coding Quiz.",
+    "image": "https://github.com/willmowlam/nebulus-60-second-quiz/raw/main/assets/images/screenshots.gif",
+    "github": "https://github.com/willmowlam/nebulus-60-second-quiz",
+    "deployed": "https://willmowlam.github.io/nebulus-60-second-quiz/"
   }
 ]
