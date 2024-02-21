@@ -67,6 +67,7 @@ button:focus-visible {
   }
 }
 
+/* Brand Fonts */
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -91,6 +92,7 @@ button:focus-visible {
   font-style: normal;
 }
 
+/* Primary button */
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #82cbf1;
@@ -114,12 +116,19 @@ header{
   color:#f9f9f9;
 }
 
-.navbar-dark, .navbar[data-bs-theme=dark] {
-  --bs-navbar-color: #f9f9f9ef;
+/* Nav */
+.navbar-dark, 
+.navbar[data-bs-theme=dark] {
+  --bs-navbar-color: #fff;
   --bs-navbar-hover-color: #fff;
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
   --bs-navbar-toggler-border-color: none;
+}
+
+/* Nav Toggle Button */
+[data-bs-theme=dark] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='square' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
