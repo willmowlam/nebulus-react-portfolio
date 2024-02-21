@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <header>
+    <header className="mb-3">
       <Navbar sticky="top" expand="lg" bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand as={Link} to="/"><img src="./assets/images/icons/favicon-32x32.png" alt="WM" width="32" height="32" className="d-inline-block align-text-top" /></Navbar.Brand>

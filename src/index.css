@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1a1a1a;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -89,4 +89,37 @@ button:focus-visible {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #82cbf1;
+  --bs-btn-border-color: #82cbf1;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #5aa9d8 ;
+  --bs-btn-hover-border-color: #5aa9d8 ;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #5aa9d8 ;
+  --bs-btn-active-border-color: #5aa9d8 ;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #82cbf1;
+  --bs-btn-disabled-border-color: #82cbf1;
+}
+
+footer,
+header{
+  background-color: #1a1a1a;
+  color:#f9f9f9;
+}
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+  --bs-navbar-color: #f9f9f9ef;
+  --bs-navbar-hover-color: #fff;
+  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
 }

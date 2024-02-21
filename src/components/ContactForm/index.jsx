@@ -22,6 +22,7 @@ function ContactForm() {
       method="POST" 
       data-netlify="true"
       onSubmit={handleSubmit}
+      className="mt-3"
     >
       <h3>Send me a message</h3>
       <Form.Control type="hidden" name="form-name" value="contact" />
