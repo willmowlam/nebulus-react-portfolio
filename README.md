@@ -7,7 +7,7 @@
 
 My portfolio of projects, built in React and deployed to Netlify at the following URL:
 
-[willmowlam.netlify.app](https://willmowlam.netlify.app/)
+[will.mowlam.com](https://will.mowlam.com/)
 
 ![Screenshot](./public/assets/images/screenshots/nebulus-react-portfolio.png)
 
