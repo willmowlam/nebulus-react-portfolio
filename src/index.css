@@ -132,3 +132,15 @@ header{
 [data-bs-theme=dark] .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='square' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
+/* Brand flashing */
+header:after,
+footer .container:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #ffd900, #3cff00, #00ffea, #0004ff, #ff0000) 1;
+  pointer-events: none; /* Prevent blocking mouse events */
+}
