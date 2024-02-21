@@ -1,5 +1,6 @@
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import { FaGithub, FaRocket } from "react-icons/fa6";
 
 function ProjectCard({ project }) {
   return (
@@ -9,8 +10,8 @@ function ProjectCard({ project }) {
         <Card.Body>
           <Card.Title>{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
-          <Card.Link href={project.deployed}>Deployed</Card.Link>
-          <Card.Link href={project.github}>GitHub</Card.Link>
+          <Card.Link href={project.deployed} className="btn btn-primary btn-sm" aria-label={`Visit ${project.title} deployed`}><FaRocket/> Deployed</Card.Link>
+          <Card.Link href={project.github} className="btn btn-secondary btn-sm" aria-label={`Visit ${project.title} GitHub`}><FaGithub/> GitHub</Card.Link>
         </Card.Body>
       </Card>
     </Col>
