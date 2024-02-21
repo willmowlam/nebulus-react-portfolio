@@ -11,19 +11,17 @@ import ContactForm from '../ContactForm'
 
 function Contact() {
   return (
-    <>
-      <Container as="main" id="page-contact">
-        <h2>Contact</h2>
-        <p>Please do feel free to get in touch.</p>
-        <ul style={{ listStyleType: 'none' }}>
-          <li><MdEmail />&nbsp;<a href="willmowlam.510@icloud.com">willmowlam.510@icloud.com</a></li>
-          <li><FaLinkedin />&nbsp;<a href="https://www.linkedin.com/in/will-mowlam">https://www.linkedin.com/in/will-mowlam</a></li>
-          <li><FaGithub />&nbsp;<a href="https://github.com/willmowlam">https://github.com/willmowlam</a></li>
-        </ul>
-        <a href="/assets/files/PDF.text"><Button><BsFileEarmarkPdf /> Download CV</Button></a>
-        <ContactForm />
-      </Container>
-    </>
+    <Container as="main" id="page-contact">
+      <h2>Contact</h2>
+      <p>Please do feel free to get in touch.</p>
+      <ul style={{ listStyleType: 'none' }}>
+        <li><MdEmail />&nbsp;<a href="willmowlam.510@icloud.com">willmowlam.510@icloud.com</a></li>
+        <li><FaLinkedin />&nbsp;<a href="https://www.linkedin.com/in/will-mowlam">https://www.linkedin.com/in/will-mowlam</a></li>
+        <li><FaGithub />&nbsp;<a href="https://github.com/willmowlam">https://github.com/willmowlam</a></li>
+      </ul>
+      <a href="/assets/files/PDF.text"><Button><BsFileEarmarkPdf /> Download CV</Button></a>
+      <ContactForm />
+    </Container>
   );
 }
 
