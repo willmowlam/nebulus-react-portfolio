@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <>
-      <Container as="section" id="footer">
+    <footer>
+      <Container>
         <Row>  
           <Col><a href="https://www.linkedin.com/in/will-mowlam">LinkedIn</a></Col>
           <Col><a href="https://github.com/willmowlam/">GitHub</a></Col> 
@@ -14,7 +14,7 @@ function Footer() {
           <p>Copyright &copy; Will Mowlam</p>
         </Row>
       </Container>
-    </>
+    </footer>
     );
   }
 
