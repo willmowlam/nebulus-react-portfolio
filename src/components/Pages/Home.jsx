@@ -6,7 +6,7 @@ function Home() {
     <Container as="main" id="page-home">
       <Row>
         <Col className="col-sm-3">
-          <img src="https://will.mowlam.com/assets/images/will-mowlam-black-bg.jpg" alt="Will Mowlam" className="img-thumbnail" />
+          <img src="https://will.mowlam.com/assets/images/will-mowlam-black-bg.jpg" alt="Will Mowlam" className="img-thumbnail border-0 p-3 rounded-0 shadow" />
         </Col>
         <Col className="col-sm-9">
           <h1 className="display-5 fw-bold poppins-semibold">Will Mowlam</h1>
