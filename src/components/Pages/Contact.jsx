@@ -19,7 +19,7 @@ function Contact() {
         <li><FaLinkedin />&nbsp;<a href="https://www.linkedin.com/in/will-mowlam">linkedin.com/in/will-mowlam</a></li>
         <li><FaGithub />&nbsp;<a href="https://github.com/willmowlam">github.com/willmowlam</a></li>
       </ul>
-      <a href="/assets/files/PDF.text"><Button><BsFileEarmarkPdf /> Download CV</Button></a>
+      <a href="/assets/files/will-mowlam-cv.pdf"><Button><BsFileEarmarkPdf /> Download CV</Button></a>
       <ContactForm />
     </Container>
   );
