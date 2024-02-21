@@ -1,8 +1,20 @@
-# React + Vite
+[![License](https://img.shields.io/github/license/willmowlam/nebulus-react-portfolio?style=flat-square)](https://github.com/willmowlam/nebulus-react-portfolio/blob/main/LICENSE) &nbsp;
+[![Language](https://img.shields.io/github/languages/top/willmowlam/nebulus-react-portfolio?style=flat-square)](https://github.com/willmowlam/nebulus-react-portfolio) [![Languages](https://img.shields.io/github/languages/count/willmowlam/nebulus-react-portfolio?style=flat-square)](https://github.com/willmowlam/nebulus-react-portfolio) &nbsp;
+[![Issues](https://img.shields.io/github/issues/willmowlam/nebulus-react-portfolio.svg?style=flat-square)](https://github.com/willmowlam/nebulus-react-portfolio/issues) [![Pull Requests](https://img.shields.io/github/issues-pr/willmowlam/nebulus-react-portfolio.svg?style=flat-square)](https://github.com/willmowlam/nebulus-react-portfolio/pulls) &nbsp;
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d38b672a-8105-45a4-9b25-30d340472bf5/deploy-status)](https://app.netlify.com/sites/willmowlam/deploys)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Portfolio
 
-Currently, two official plugins are available:
+My portfolio of projects, built in React and deployed to Netlify at:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[willmowlam.netlify.app](https://willmowlam.netlify.app/)
+
+## Questions
+
+If you have any questions, please email [willmowlam.510@icloud.com](mailto:willmowlam.510@icloud.com) or visit my GitHub profile at [https://github.com/willmowlam](https://github.com/willmowlam)
+
+## License
+
+Copyright (c) 2024 Will Mowlam
+
+React Portfolio is [MIT licensed](./LICENSE).
