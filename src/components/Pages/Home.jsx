@@ -1,7 +1,13 @@
+import { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Home() {
+
+  useEffect(() => {
+    document.title = `Will Mowlam // Web Developer`;
+  }, []);
+
   return (
     <Container as="main" id="page-home">
       <Row>

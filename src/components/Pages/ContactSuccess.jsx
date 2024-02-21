@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 
 function ContactSuccess() {
+
+  useEffect(() => {
+    document.title = `Contact/Success ~ Will Mowlam // Web Developer`;
+  }, []);
+
   return (
     <Container as="main" id="page-contact-success">
       <h2>Thank you for your message</h2>
