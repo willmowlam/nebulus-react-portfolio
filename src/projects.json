@@ -3,7 +3,8 @@
     "id": 1,
     "title": "NutriSmart App",
     "description": "An app designed for meal planning and nutritional tracking.",
-    "image": "https://github.com/willmowlam/nutriSmartApp/raw/main/assets/images/nutriAppDemoImage.png",
+    "image": "/assets/images/screenshots/nutriSmartApp.png",
+    "thumb": "/assets/images/screenshots/thumbs/nutriSmartApp.jpg",
     "github": "https://github.com/willmowlam/nutriSmartApp/tree/stage",
     "deployed": "https://willmowlam.github.io/nutriSmartApp/"
   },
@@ -11,7 +12,8 @@
     "id": 2,
     "title": "Weather Dashboard",
     "description": "A weather app that allows you to see the current and 5-day weather forecast for your favourite cities.",
-    "image": "https://github.com/willmowlam/nebulus-weather-dashboard/raw/main/assets/images/screenshot.png",
+    "image": "/assets/images/screenshots/nebulus-weather-dashboard.png",
+    "thumb": "/assets/images/screenshots/thumbs/nebulus-weather-dashboard.jpg",
     "github": "https://willmowlam.github.io/nebulus-weather-dashboard/",
     "deployed": "https://willmowlam.github.io/nebulus-weather-dashboard/"
   },
@@ -19,7 +21,8 @@
     "id": 3,
     "title": "Team Profile Generator",
     "description": "A Node.js command-line application to easily create an HTML file containing basic information about your software engineering team.",
-    "image": "https://raw.githubusercontent.com/willmowlam/nebulus-team-profile-generator/main/assets/images/screenshot.png",
+    "image": "/assets/images/screenshots/nebulus-team-profile-generator.png",
+    "thumb": "/assets/images/screenshots/thumbs/nebulus-team-profile-generator.jpg",
     "github": "https://github.com/willmowlam/nebulus-team-profile-generator",
     "deployed": "https://willmowlam.github.io/nebulus-team-profile-generator/assets/example/team.html"
   },
@@ -27,7 +30,8 @@
     "id": 4,
     "title": "Readme Generator",
     "description": "A command line Node.js powered README.md generator for GitHub projects.",
-    "image": "/assets/images/screenshots/readme-generator.png",
+    "image": "/assets/images/screenshots/nebulus-readme-generator.png",
+    "thumb": "/assets/images/screenshots/thumbs/nebulus-readme-generator.jpg",
     "github": "https://github.com/willmowlam/nebulus-readme-generator",
     "deployed": "https://github.com/willmowlam/nebulus-readme-generator/blob/main/README.md"
   },
@@ -35,7 +39,8 @@
     "id": 5,
     "title": "Bootstrap Portfolio",
     "description": "Responsive portfolio of my work, built in Bootstrap.",
-    "image": "https://github.com/willmowlam/nebulus-bootstrap-portfolio/raw/main/assets/images/screenshot-bootstrap-portfolio.png",
+    "image": "/assets/images/screenshots/nebulus-bootstrap-portfolio.png",
+    "thumb": "/assets/images/screenshots/thumbs/nebulus-bootstrap-portfolio.jpg",
     "github": "https://github.com/willmowlam/nebulus-bootstrap-portfolio",
     "deployed": "https://willmowlam.github.io/nebulus-bootstrap-portfolio/"
   },
@@ -43,7 +48,8 @@
     "id": 6,
     "title": "60 Second Coding Quiz",
     "description": "Test your knowledge in JavaScript with the Nebulus 60 Second Coding Quiz.",
-    "image": "https://github.com/willmowlam/nebulus-60-second-quiz/raw/main/assets/images/screenshots.gif",
+    "image": "/assets/images/screenshots/nebulus-60-second-quiz.gif",
+    "thumb": "/assets/images/screenshots/thumbs/nebulus-60-second-quiz.gif",
     "github": "https://github.com/willmowlam/nebulus-60-second-quiz",
     "deployed": "https://willmowlam.github.io/nebulus-60-second-quiz/"
   }
