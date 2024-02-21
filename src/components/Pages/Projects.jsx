@@ -1,9 +1,15 @@
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ProjectCard from '../ProjectCard';
 import projectsData from '../../projects.json';
 
 function Projects() {
+
+  useEffect(() => {
+    document.title = `Projects ~ Will Mowlam // Web Developer`;
+  }, []);
+
   return (
     <Container as="main" id="page-projects">
       <h2>Projects</h2>

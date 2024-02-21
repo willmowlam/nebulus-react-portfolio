@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
@@ -5,11 +6,12 @@ import { MdEmail } from 'react-icons/md';
 import { BsFileEarmarkPdf } from 'react-icons/bs';
 import ContactForm from '../ContactForm'
 
-// Must include contact information:
-
-// Link to a PDF version of your CV
-
 function Contact() {
+
+  useEffect(() => {
+    document.title = `Contact ~ Will Mowlam // Web Developer`;    
+  }, []);
+
   return (
     <Container as="main" id="page-contact">
       <h2>Contact</h2>

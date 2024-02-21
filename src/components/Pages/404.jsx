@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 
 function Custom404() {
+  
+  useEffect(() => {
+    document.title = `404 ~ Will Mowlam // Web Developer`;    
+  }, []);
+
   return (
     <Container as="main" id="page-404">
       <h2>404 - Page Not Found</h2>
