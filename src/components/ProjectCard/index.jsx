@@ -5,7 +5,7 @@ function ProjectCard({ project }) {
   return (
     <Col>
       <Card>
-        <Card.Img variant="top" src={project.image} loading="lazy" alt={project.title} />
+        <Card.Img variant="top" src={project.thumb} loading="lazy" alt={project.title} />
         <Card.Body>
           <Card.Title>{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
