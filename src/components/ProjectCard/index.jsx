@@ -4,8 +4,8 @@ import Card from 'react-bootstrap/Card';
 function ProjectCard({ project }) {
   return (
     <Col>
-      <Card>
-        <Card.Img variant="top" src={project.thumb} loading="lazy" alt={project.title} />
+      <Card className="border-0 rounded-0 shadow">
+        <Card.Img variant="top" src={project.thumb} loading="lazy" alt={project.title} className="rounded-0" />
         <Card.Body>
           <Card.Title>{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
