@@ -5,9 +5,11 @@
 
 # React Portfolio
 
-My portfolio of projects, built in React and deployed to Netlify at:
+My portfolio of projects, built in React and deployed to Netlify at the following URL:
 
 [willmowlam.netlify.app](https://willmowlam.netlify.app/)
+
+![Screenshot](./public/assets/images/screenshots/nebulus-react-portfolio.png)
 
 ## Questions
 
