@@ -74,7 +74,6 @@ function ContactForm() {
   return (
     <>
       <form name="contact" onSubmit={handleFormSubmit} className="mt-3">
-        <h3>Send me a message</h3>
         <Form.Group className="mb-3" controlId="name">
           <Form.Label>Your name:</Form.Label>
           <Form.Control type="text" name="name" onChange={handleFormFieldChange} value={formData.name} required />
