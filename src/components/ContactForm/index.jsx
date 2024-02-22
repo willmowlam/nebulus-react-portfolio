@@ -50,7 +50,7 @@ function ContactForm() {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...formData })
+      body: encode({ "form-name": "test2", ...formData })
     })
     .then(() => {
       setModalTitle('Success!');
@@ -73,7 +73,7 @@ function ContactForm() {
 
   return (
     <>
-      <form name="contact" onSubmit={handleFormSubmit} className="mt-3">
+      <form name="test2" onSubmit={handleFormSubmit} className="mt-3">
         <Form.Group className="mb-3" controlId="name">
           <Form.Label>Your name:</Form.Label>
           <Form.Control type="text" name="name" onChange={handleFormFieldChange} value={formData.name} required />
