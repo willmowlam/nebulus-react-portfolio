@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import './index.css';
 
 function Header() {
   return (
@@ -12,9 +13,9 @@ function Header() {
           <Navbar.Toggle aria-controls="main-nav" />
           <Navbar.Collapse id="main-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+              <Nav.Link as={Link} className="btn btn-outline-light" to="/">Home</Nav.Link>
+              <Nav.Link as={Link} className="btn btn-outline-light" to="/projects">Projects</Nav.Link>
+              <Nav.Link as={Link} className="btn btn-outline-light" to="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
