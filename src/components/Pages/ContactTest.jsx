@@ -17,6 +17,9 @@ function ContactTest() {
           <label>Email <input type="email" name="email" /></label>
         </p>
         <p>
+          <textarea name="message"></textarea>
+        </p>
+        <p>
           <button type="submit">Send</button>
         </p>
       </form>
