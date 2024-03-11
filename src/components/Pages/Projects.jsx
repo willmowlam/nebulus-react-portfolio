@@ -14,9 +14,11 @@ function Projects() {
     <Container as="main" id="page-projects">
       <h2>Projects</h2>
       <Row xs={1} md={2} className="g-4">
-        {projectsData.map(project => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
+        {projectsData
+          .filter(project => project.show === true)
+          .map(project => (
+            <ProjectCard key={project.id} project={project} />
+         ))}
         </Row>
     </Container>
   );
