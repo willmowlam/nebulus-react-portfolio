@@ -1,6 +1,7 @@
 [
   {
     "id": 7,
+    "show": true,
     "title": "devOpps",
     "description": "A ReactJS job search app for those in software and web development.",
     "image": "/assets/images/screenshots/devOpps.png",
@@ -10,6 +11,7 @@
   },
   {
     "id": 6,
+    "show": true,
     "title": "NutriSmart",
     "description": "A JavaScript single-page app designed for meal planning and nutritional tracking. Powered by Edamam's API.",
     "image": "/assets/images/screenshots/nutriSmartApp.png",
@@ -19,6 +21,7 @@
   },
   {
     "id": 5,
+    "show": true,
     "title": "Weather Dashboard",
     "description": "A weather app that shows you the current and 5-day weather forecast for your favourite cities.",
     "image": "/assets/images/screenshots/nebulus-weather-dashboard.png",
@@ -28,6 +31,7 @@
   },
   {
     "id": 4,
+    "show": true,
     "title": "Team Profile Generator",
     "description": "A Node.js command-line application that renders an HTML file with info about your engineering team.",
     "image": "/assets/images/screenshots/nebulus-team-profile-generator.png",
@@ -37,6 +41,7 @@
   },
   {
     "id": 3,
+    "show": true,
     "title": "Readme Generator",
     "description": "A command line Node.js powered README.md generator for use with GitHub projects.",
     "image": "/assets/images/screenshots/nebulus-readme-generator.png",
@@ -46,6 +51,7 @@
   },
   {
     "id": 2,
+    "show": true,
     "title": "Bootstrap Portfolio",
     "description": "A responsive portfolio of my work, built in Bootstrap 5.",
     "image": "/assets/images/screenshots/nebulus-bootstrap-portfolio.png",
@@ -55,6 +61,7 @@
   },
   {
     "id": 1,
+    "show": false,
     "title": "60 Second Coding Quiz",
     "description": "Test your JavaScript knowledge with my 60 Second Quiz.",
     "image": "/assets/images/screenshots/nebulus-60-second-quiz.gif",
