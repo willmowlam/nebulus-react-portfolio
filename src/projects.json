@@ -2,7 +2,7 @@
   {
     "id": 7,
     "title": "devOpps",
-    "description": "devOpps offers a comprehensive platform for all your tech hiring needs, making job searches and candidate sourcing hassle-free.",
+    "description": "A ReactJS job search app for those in software and web development.",
     "image": "/assets/images/screenshots/devOpps.png",
     "thumb": "/assets/images/screenshots/thumbs/devOpps.jpg",
     "github": "https://github.com/willmowlam/devopps/",
