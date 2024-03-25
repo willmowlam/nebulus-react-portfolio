@@ -60,7 +60,7 @@
   },
   {
     "id": 2,
-    "show": true,
+    "show": false,
     "title": "Bootstrap Portfolio",
     "description": "A responsive portfolio of my work, built in Bootstrap 5.",
     "image": "/assets/images/screenshots/nebulus-bootstrap-portfolio.png",
