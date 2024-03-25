@@ -10,8 +10,12 @@ function ProjectCard({ project }) {
         <Card.Body>
           <Card.Title>{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
-          <Card.Link href={project.deployed} className="btn btn-primary btn-sm" aria-label={`Visit ${project.title} deployed`}><FaRocket/> Deployed</Card.Link>
-          <Card.Link href={project.github} className="btn btn-secondary btn-sm" aria-label={`Visit ${project.title} GitHub`}><FaGithub/> GitHub</Card.Link>
+          {project.deployed && (
+            <Card.Link href={project.deployed} className="btn btn-primary btn-sm" aria-label={`Visit ${project.title} deployed`}><FaRocket/> Deployed</Card.Link>
+          )}
+          {project.github && (
+            <Card.Link href={project.github} className="btn btn-secondary btn-sm" aria-label={`Visit ${project.title} GitHub`}><FaGithub/> GitHub</Card.Link>
+          )}
         </Card.Body>
       </Card>
     </Col>
