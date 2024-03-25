@@ -1,6 +1,6 @@
 [
   {
-    "id": 7,
+    "id": 8,
     "show": true,
     "title": "devOpps",
     "description": "A ReactJS job search app for those in software and web development.",
@@ -9,6 +9,15 @@
     "github": "https://github.com/willmowlam/devopps/",
     "deployed": "https://devopps.app/"
   },
+  {
+    "id": 7,
+    "show": true,
+    "title": "School Aid South Africa",
+    "description": "Charity website with donation facility, built in Laravel with Bootstrap frontend.",
+    "image": "/assets/images/screenshots/school-aid-south-africa.png",
+    "thumb": "/assets/images/screenshots/thumbs/school-aid-south-africa.jpg",
+    "deployed": "https://www.school-aid.org.za/"
+  },  
   {
     "id": 6,
     "show": true,
