@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import { Image } from 'react-bootstrap';
 import './index.css';
 
 function Header() {
@@ -9,7 +10,9 @@ function Header() {
     <header className="mb-3">
       <Navbar sticky="top" expand="lg" bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/"><img src="./assets/images/icons/favicon-32x32.png" alt="WM" width="32" height="32" className="d-inline-block align-text-top" /></Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">
+            <Image src="./assets/images/icons/favicon-32x32.png" alt="WM" width={32} height={32} className="d-inline-block align-text-top" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="main-nav" />
           <Navbar.Collapse id="main-nav">
             <Nav className="ms-auto">
