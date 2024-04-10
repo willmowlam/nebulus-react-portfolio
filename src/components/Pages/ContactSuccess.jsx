@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
+import setDocumentTitle from '/src/utils/setDocumentTitle';
+import setMetaDescription from '/src/utils/setMetaDescription';
 
 function ContactSuccess() {
 
-  useEffect(() => {
-    document.title = `Contact/Success ~ Will Mowlam // Web Developer`;
-  }, []);
+  setDocumentTitle('Contact/Success ~ Will Mowlam // Web Developer');
+  setMetaDescription('Successful message sent via the contact page.');
 
   return (
     <Container as="main" id="page-contact-success">

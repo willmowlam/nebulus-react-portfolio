@@ -1,12 +1,12 @@
-import { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import setDocumentTitle from '/src/utils/setDocumentTitle';
+import setMetaDescription from '/src/utils/setMetaDescription';
 
 function Home() {
 
-  useEffect(() => {
-    document.title = `Will Mowlam // Web Developer`;
-  }, []);
+  setDocumentTitle('Will Mowlam // Web Developer');
+  setMetaDescription('Full-stack web developer based in Worthing, England. Experience in React, Node.js, Drupal and Laravel.');
 
   return (
     <Container as="main" id="page-home">
