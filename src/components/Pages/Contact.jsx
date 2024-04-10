@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -7,14 +6,12 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from 'react-icons/md';
 import { BsFileEarmarkPdf } from 'react-icons/bs';
 import ContactForm from '../ContactForm'
+import setDocumentTitle from '/src/utils/setDocumentTitle';
 import setMetaDescription from '/src/utils/setMetaDescription';
 
 function Contact() {
 
-  useEffect(() => {
-    document.title = `Contact ~ Will Mowlam // Web Developer`;    
-  }, []);
-
+  setDocumentTitle('Contact ~ Will Mowlam // Web Developer');
   setMetaDescription('Contact me or download my CV.');
 
   return (

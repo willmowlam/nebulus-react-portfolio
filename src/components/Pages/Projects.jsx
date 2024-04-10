@@ -1,16 +1,13 @@
-import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ProjectCard from '../ProjectCard';
 import projectsData from '../../projects.json';
+import setDocumentTitle from '/src/utils/setDocumentTitle';
 import setMetaDescription from '/src/utils/setMetaDescription';
 
 function Projects() {
 
-  useEffect(() => {
-    document.title = `Projects ~ Will Mowlam // Web Developer`;
-  }, []);
-
+  setDocumentTitle('Projects ~ Will Mowlam // Web Developer');
   setMetaDescription('View recent web projects developed by Will Mowlam.');
 
   return (
