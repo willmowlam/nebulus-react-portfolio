@@ -6,7 +6,7 @@ import setMetaDescription from '/src/utils/setMetaDescription';
 function Custom404() {
   
   setDocumentTitle('404 ~ Will Mowlam // Web Developer');    
-  setMetaDescription(`The page or resource  doesn't exist.`);
+  setMetaDescription(`The page or resource doesn't exist.`);
 
   return (
     <Container as="main" id="page-404">
