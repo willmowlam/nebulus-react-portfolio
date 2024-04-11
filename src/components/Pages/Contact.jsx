@@ -5,9 +5,8 @@ import Button from 'react-bootstrap/Button';
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from 'react-icons/md';
 import { BsFileEarmarkPdf } from 'react-icons/bs';
+import { setDocumentTitle, setMetaDescription } from '/src/utils';
 import ContactForm from '../ContactForm'
-import setDocumentTitle from '/src/utils/setDocumentTitle';
-import setMetaDescription from '/src/utils/setMetaDescription';
 
 function Contact() {
 

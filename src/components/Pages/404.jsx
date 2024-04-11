@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
-import setDocumentTitle from '/src/utils/setDocumentTitle';
-import setMetaDescription from '/src/utils/setMetaDescription';
+import { setDocumentTitle, setMetaDescription } from '/src/utils';
 
 function Custom404() {
   

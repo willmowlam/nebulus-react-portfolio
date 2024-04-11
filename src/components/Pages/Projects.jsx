@@ -1,9 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import { setDocumentTitle, setMetaDescription } from '/src/utils';
 import ProjectCard from '../ProjectCard';
 import projectsData from '../../projects.json';
-import setDocumentTitle from '/src/utils/setDocumentTitle';
-import setMetaDescription from '/src/utils/setMetaDescription';
 
 function Projects() {
 
