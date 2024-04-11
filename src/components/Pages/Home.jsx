@@ -11,7 +11,7 @@ function Home() {
     <Container as="main" id="page-home">
       <Row>
         <Col className="col-sm-3">
-          <img src="/assets/images/will-mowlam-sepia.jpg" alt="Will Mowlam" className="img-thumbnail border-0 p-3 rounded-0 shadow" />
+          <img src="/assets/images/will-mowlam-sepia.jpg" alt="Will Mowlam" className="img-thumbnail border-0 p-3 rounded-0 shadow" style={{ width: '100%', height: 'auto' }} />
         </Col>
         <Col className="col-sm-9">
           <h1 className="display-5 fw-bold poppins-semibold">Will Mowlam</h1>
