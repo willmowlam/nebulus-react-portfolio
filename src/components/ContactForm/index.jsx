@@ -13,7 +13,7 @@ function ContactForm() {
 
   // Create state for the modal title
   const [modalTitle, setModalTitle] = useState('');
-  
+
   // Close the modal method
   const handleCloseModal = () => setShowModal(false);
 
@@ -21,24 +21,24 @@ function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''    
+    message: ''
   });
 
   // Helper function to encode form data
   const encode = (data) => {
     return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
   };
 
   // Event handler for when form fields change
   const handleFormFieldChange = (e) => {
 
     // Create variables from target
-    const {name, value} = e.target;
+    const { name, value } = e.target;
 
     // Change the value in the form data state variables
-    setFormData({...formData, [name]: value});
+    setFormData({ ...formData, [name]: value });
   };
 
   // Event handler for form submission
@@ -52,16 +52,16 @@ function ContactForm() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...formData })
     })
-    .then(() => {
-      setModalTitle('Success!');
-      setModalMessage("Thank you for your message!");
-      setShowModal(true);
-    })
-    .catch(error => {
-      etModalTitle('Error');
-      setModalMessage(error);
-      setShowModal(true);
-    });
+      .then(() => {
+        setModalTitle('Success!');
+        setModalMessage("Thank you for your message!");
+        setShowModal(true);
+      })
+      .catch(error => {
+        setModalTitle('Error');
+        setModalMessage(error);
+        setShowModal(true);
+      });
 
     // Reset form fields
     setFormData({

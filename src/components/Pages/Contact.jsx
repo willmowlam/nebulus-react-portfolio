@@ -5,13 +5,13 @@ import Button from 'react-bootstrap/Button';
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from 'react-icons/md';
 import { BsFileEarmarkPdf } from 'react-icons/bs';
-import { setDocumentTitle, setMetaDescription } from '/src/utils';
+import { useDocumentTitle, useMetaDescription } from '/src/utils';
 import ContactForm from '../ContactForm'
 
 function Contact() {
 
-  setDocumentTitle('Contact ~ Will Mowlam // Web Developer');
-  setMetaDescription('Contact me or download my CV.');
+  useDocumentTitle('Contact ~ Will Mowlam // Web Developer');
+  useMetaDescription('Contact me or download my CV.');
 
   return (
     <Container as="main" id="page-contact">
