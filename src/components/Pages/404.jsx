@@ -1,11 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
-import { setDocumentTitle, setMetaDescription } from '/src/utils';
+import { useDocumentTitle, useMetaDescription } from '/src/utils';
 
 function Custom404() {
 
-  setDocumentTitle('404 ~ Will Mowlam // Web Developer');
-  setMetaDescription(`The page or resource doesn't exist.`);
+  useDocumentTitle('404 ~ Will Mowlam // Web Developer');
+  useMetaDescription(`The page or resource doesn't exist.`);
 
   return (
     <Container as="main" id="page-404">

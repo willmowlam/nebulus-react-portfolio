@@ -1,10 +1,10 @@
 import Container from 'react-bootstrap/Container';
-import { setDocumentTitle, setMetaDescription } from '/src/utils';
+import { useDocumentTitle, useMetaDescription } from '/src/utils';
 
 function ContactSuccess() {
 
-  setDocumentTitle('Contact/Success ~ Will Mowlam // Web Developer');
-  setMetaDescription('Successful message sent via the contact page.');
+  useDocumentTitle('Contact/Success ~ Will Mowlam // Web Developer');
+  useMetaDescription('Successful message sent via the contact page.');
 
   return (
     <Container as="main" id="page-contact-success">

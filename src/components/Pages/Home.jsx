@@ -1,11 +1,11 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { setDocumentTitle, setMetaDescription } from '/src/utils';
+import { useDocumentTitle, useMetaDescription } from '/src/utils';
 
 function Home() {
 
-  setDocumentTitle('Will Mowlam // Web Developer');
-  setMetaDescription('Full-stack web developer based in Worthing, England. Experience in React, Node.js, Drupal and Laravel.');
+  useDocumentTitle('Will Mowlam // Web Developer');
+  useMetaDescription('Full-stack web developer based in Worthing, England. Experience in React, Node.js, Drupal and Laravel.');
 
   return (
     <Container as="main" id="page-home">

@@ -1,2 +1,2 @@
-export { default as setDocumentTitle } from './setDocumentTitle';
-export { default as setMetaDescription } from './setMetaDescription';
+export { default as useDocumentTitle } from './useDocumentTitle';
+export { default as useMetaDescription } from './useMetaDescription';

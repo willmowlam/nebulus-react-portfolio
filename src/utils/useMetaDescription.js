@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const setMetaDescription = (description) => {
+const useMetaDescription = (description) => {
   useEffect(() => {
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
@@ -14,4 +14,4 @@ const setMetaDescription = (description) => {
   }, [description]);
 };
 
-export default setMetaDescription;
+export default useMetaDescription;
