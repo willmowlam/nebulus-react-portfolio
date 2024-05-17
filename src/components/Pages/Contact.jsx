@@ -24,7 +24,7 @@ function Contact() {
             <li><FaLinkedin />&nbsp;<a href="https://www.linkedin.com/in/will-mowlam">linkedin.com/in/will-mowlam</a></li>
             <li><FaGithub />&nbsp;<a href="https://github.com/willmowlam">github.com/willmowlam</a></li>
           </ul>
-          <a href="/assets/files/will-mowlam-cv.pdf"><Button><BsFileEarmarkPdf /> Download CV</Button></a>
+          <a href="/assets/files/will-mowlam-cv.pdf" download="Will Mowlam CV.pdf"><Button><BsFileEarmarkPdf /> Download CV</Button></a>
         </Col>
         <Col xs={12} md={6}>
           <ContactForm />
