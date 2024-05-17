@@ -1,5 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Container, Row } from 'react-bootstrap';
 
 function Footer() {
   return (
@@ -10,7 +9,7 @@ function Footer() {
         </Row>
       </Container>
     </footer>
-    );
-  }
+  );
+}
 
 export default Footer;
