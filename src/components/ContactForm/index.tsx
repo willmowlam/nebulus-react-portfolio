@@ -24,16 +24,19 @@ function ContactForm() {
   });
 
   // Helper function to encode form data
-  const encode = (data) => {
+  const encode = (data: {
+    [key: string]: string | number | boolean;
+  }): string => {
     return Object.keys(data)
       .map(
-        (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
+        (key) =>
+          encodeURIComponent(key) + '=' + encodeURIComponent(String(data[key]))
       )
       .join('&');
   };
 
   // Event handler for when form fields change
-  const handleFormFieldChange = (e) => {
+  const handleFormFieldChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     // Create variables from target
     const { name, value } = e.target;
 
@@ -42,7 +45,7 @@ function ContactForm() {
   };
 
   // Event handler for form submission
-  const handleFormSubmit = (e) => {
+  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     // Stop sending data as querystring
     e.preventDefault();
 
