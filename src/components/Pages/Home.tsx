@@ -23,8 +23,8 @@ function Home() {
           <h1 className="display-5 fw-bold poppins-semibold">Will Mowlam</h1>
           <p className="col-md-8 fs-4 poppins-regular">
             Hello! I&apos;m a full-stack web developer based in Worthing,
-            England. I create accessible, seo-friendly web apps in React,
-            Node.js, Drupal and Laravel.
+            England. I specialise in creating accessible, SEO-friendly web apps
+            using React, Node.js, Drupal and Laravel.
           </p>
           <Link to="/projects" className="btn btn-primary btn-md" type="button">
             View Portfolio
